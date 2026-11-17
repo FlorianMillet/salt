@@ -418,7 +418,7 @@ distro==1.5.0
     # via
     #   -r requirements/base.txt
     #   pytest-skip-markers
-dnspython==1.16.0
+dnspython==2.9.2
     # via
     #   -r requirements/static/ci/common.in
     #   python-etcd
@@ -661,7 +661,7 @@ packaging==19.2
     # via
     #   ansible-core
     #   pytest
-paramiko==2.10.1 ; sys_platform != "win32" and sys_platform != "darwin"
+paramiko==5.0.0 ; sys_platform != "win32" and sys_platform != "darwin"
     # via
     #   -r requirements/static/ci/common.in
     #   junos-eznc
@@ -919,7 +919,7 @@ toml==0.10.2
     # via
     #   -r requirements/static/ci/common.in
     #   pytest
-tornado==6.1
+tornado==6.6.1
     # via python-telegram-bot
 transitions==0.8.1
     # via junos-eznc
